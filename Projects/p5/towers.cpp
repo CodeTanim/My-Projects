@@ -20,9 +20,12 @@ using std::cout;
 using std::endl;
 #include <getopt.h> // to parse long arguments.
 #include <cstdlib> // for atoi function
+/*This is a program that computes the most moves needed for the Tower of hanoi puzzle. It works for any number of disks, irregardless of starting point. You need to input the number of disks, starting point and ending point from the command line*/
+
+//Command line example input: ./towers -n 3 -s 1 -e 3
 
 
-/* a very brief explanation of the algorithm would be to make a situatio where u can move the nth disk from the starting tower to the ending tower in one move. You would move the n-1 disks to some tower in between the ending and starting towers, so you can make a situation where you can move the nth disk to the final destination AND THEN the rest of the towers as well. */
+/* a very brief explanation of the algorithm would be to make a situation where u can move the nth disk from the starting tower to the ending tower in one move. You would move the n-1 disks to some tower in between the ending and starting towers, so you can make a situation where you can move the nth disk to the final destination AND THEN the rest of the towers as well. */
 
 
 
